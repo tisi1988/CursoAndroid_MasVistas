@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector 
+   xmlns:android="http://schemas.android.com/apk/res/android">
+   <!-- El orden de definicion de los items es importante porque actua como un switch-case.
+   Por ejemplo, el boton normal no se muestra si se cumple una de las condiciones previas 
+   (no esta pulsado ni tiene el foco)-->
+   <!-- Definimos el recurso grafico de boton pulsado -->
+    <item android:drawable="@drawable/boton_pulsado"
+          android:state_pressed="true" />
+    <!-- Definimos el recurso grafico de boton con foco -->
+    <item android:drawable="@drawable/boton_con_foco"
+          android:state_focused="true" />
+    <!-- Definimos el recurso grafico de boton normal -->
+    <item android:drawable="@drawable/boton_normal" />
+</selector>
