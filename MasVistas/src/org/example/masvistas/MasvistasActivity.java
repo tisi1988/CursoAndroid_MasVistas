@@ -29,10 +29,6 @@ public class MasvistasActivity extends Activity {
 	}
 	
 	public void sePulsa(View view){
-/*		Toast.makeText(this, //Contexto usado (la actividad) 
-						"Pulsado", //Texto a mostrar en el Toast 
-						Toast.LENGTH_SHORT //tiempo que el toast permanece en pantalla
-						).show();   */
 		salida.setText(String.valueOf(
 			       Float.parseFloat(entrada.getText().toString())*2.0));
     }
